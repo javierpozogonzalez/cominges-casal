@@ -1,8 +1,7 @@
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function sendAdmissionEmail(data: any) {
+  const resend = new Resend(process.env.RESEND_API_KEY || "re_dummy");
   const { 
     fullName, email, phone, university, degree, 
     interestArea, gradYear, motivation 
