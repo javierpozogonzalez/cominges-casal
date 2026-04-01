@@ -19,7 +19,6 @@ export default function Team() {
       bio: "Co-fundador en 2014 de Wetaca, referente español en foodtech. Experto en creación, valoración y desarrollo de startups. Activo en análisis e inversión de ideas empresariales. Mentor de emprendedores y apasionado de la eficiencia operativa.",
       area: "Startups & Emp.",
       imageUrl: "/assets/andres-casal.png",
-      blurCard: true,
     },
     {
       name: "[Especialista en IA]",
