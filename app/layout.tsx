@@ -17,6 +17,10 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cominges-casal.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: "Cominges Casal · Mentoring de Élite para Jóvenes Profesionales",
   description:
     "Estudio de mentoring personalizado para jóvenes que buscan comenzar su carrera en las mejores firmas legales, financieras y del mundo tech. Madrid.",
